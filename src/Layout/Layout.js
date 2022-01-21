@@ -1,6 +1,7 @@
 import React from 'react'
 import { Global, css } from '@emotion/react'
 import emotionNormalize from 'emotion-normalize'
+import Header from '../components/Header'
 
 const Layout = ({ children }) => {
 	return (
@@ -18,6 +19,9 @@ const Layout = ({ children }) => {
 					}
 				`}
 			/>
+			<Header/>
+
+
 			{children}
 		</>
 	)

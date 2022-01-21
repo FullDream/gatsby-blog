@@ -14,8 +14,7 @@ const Header = () => {
 	return (
 		<header
 			css={{
-				color: 'darkorchid',
-				backgroundColor: 'lightgray',
+				backgroundColor: '#feebef',
 			}}
 		>
 			<h1>{titleQuery.site.siteMetadata.title}</h1>
