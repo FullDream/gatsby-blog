@@ -1,10 +1,12 @@
 import React from "react"
-import Layout from "../Layout/Layout"
-
+import { Helmet } from 'react-helmet'
 const IndexPage = () => {
   return (
-		<Layout>
-		</Layout>
+		<>
+		<Helmet>
+			<title>Блог на Gatsby</title>
+		</Helmet>
+		</>
 	)
 }
 
